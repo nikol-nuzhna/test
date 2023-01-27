@@ -1,0 +1,114 @@
+/*----------------------*/
+/*-----reset styles-----*/
+/*----------------------*/
+@import url("reset.css");
+/*----------------------*/
+body {
+    background-color: #e8e8e8;
+    font-family: 'Times New Roman', Times, serif;
+    color: #273d46;
+    font-size: 24px;
+    line-height: 40px;
+}
+/*----------------------*/
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+/*----------------------*/
+[class*="__container"] {
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*----------------------*/
+.page {
+    background: url("../img/bg\ figure.png") center 150px no-repeat;
+}
+
+.page__container {
+    padding: 125px 40px 100px 40px;
+}
+
+.page__title-block {
+    padding: 40px 0 80px;
+}
+
+.title-block__pretitle {
+    font-size: 14px;
+    font-family: "Arial";
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title-block__title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.page__img {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 15px 32.5px rgba(15, 16, 16, 0.15);
+    margin: 0 -40px 90px;
+    max-width: 1000px;
+}
+
+.page__paragraphs {
+    opacity: 0.800;
+    margin-bottom: 50px;
+}
+.page__paragraphs p:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.page__list {
+    font-size: 20px;
+    line-height: 36px;
+    font-family: "Arial";
+    margin-bottom: 60px;
+}
+
+.page__list ul li {
+    padding-left: 30px;
+    background: url("../img/icons/check.svg") left 8px no-repeat;
+}
+
+.page__list ul li:first-child span {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.page__list ul li:nth-child(2) span {
+    color: #80b7b3;
+}
+
+.page__list ul li:last-child span {
+    opacity: 0.302;
+    text-decoration: line-through;
+}
+
+.page__button {
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Arial";
+    margin-bottom: 30px;
+    max-width: max-content;
+
+    background: url("../img/icons/arrow.svg") 155px no-repeat;
+    background-color: #80b7b3;
+    box-shadow: 0px 6px 20px rgba(128, 183, 179, 0.54);
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.page__button a {
+    padding: 12px 55px 12px 30px;
+}
+/*----------------------*/
